@@ -24,11 +24,11 @@ services:
       MYSQL_DATABASE: ms_orders
       MYSQL_USER: aozzo
       MYSQL_PASSWORD: Test123
-      MYSQL_ROOT_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: !AnuaresNew157
     ports:
-      - 3306:3306
+      - 3307:3307
     expose:
-      - 3306
+      - 3307
 
   ### Postgres db for Products
   db-products:
