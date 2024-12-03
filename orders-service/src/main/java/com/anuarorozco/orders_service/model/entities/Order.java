@@ -1,4 +1,4 @@
-package com.anuarorozco.orders_service.entities;
+package com.anuarorozco.orders_service.model.entities;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
